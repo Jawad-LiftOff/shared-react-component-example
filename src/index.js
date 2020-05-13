@@ -1,3 +1,3 @@
-const TodaysDate = require('./TodaysDate');
+import TodaysDate from './TodaysDate';
 
-module.exports = TodaysDate;
+export default TodaysDate;
