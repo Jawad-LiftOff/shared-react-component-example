@@ -1,4 +1,5 @@
-import React from "react";
+const React = require("react");
 const TodaysDate = () => 
   <div>{`Today's date is ${Date()}`}</div>;
-export default TodaysDate;
+
+module.exports = TodaysDate;
